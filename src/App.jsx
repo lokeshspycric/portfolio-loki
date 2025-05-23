@@ -12,6 +12,8 @@ import Contact from "./components/Contact";
 import ThemeToggle from "./components/ThemeToggle";
 import NavBar from "./components/NavBar";
 import LokeshBot from "./components/LokeshBot";
+import Certifications from "./components/Certifications";
+
 
 import Project1 from "./routes/Project1";
 import Project2 from "./routes/Project2";
@@ -39,6 +41,7 @@ export default function App() {
           <div id="experience"><Experience /></div>
           <div id="skills"><Skills /></div>
           <div id="projects"><Projects /></div>
+          <div id="certifications"><Certifications /></div>
           <div id="contact"><Contact /></div>
         </>
       }
