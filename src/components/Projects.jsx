@@ -6,34 +6,28 @@ export default function Projects() {
     {
       title: "DermaFusion AI",
       description: "Skin cancer detection using image + clinical data. Full-stack ML deployment on AWS.",
-      link: "/projects/project1",
+      link: "/Projects/Project1",
       tags: ["ML", "XGBoost", "TensorFlow", "AWS"]
     },
     {
       title: "LLM Toxicity Detector",
       description: "RoBERTa-powered API classifying toxic social media content with 97% accuracy.",
-      link: "/projects/project2",
+      link: "/Projects/Project2",
       tags: ["LLM", "NLP", "RoBERTa", "Flask"]
     },
     {
       title: "Biometric Auth System",
       description: "Real-time face + voice authentication with ML fusion logic and SVM classifier.",
-      link: "/projects/project3",
+      link: "/Projects/Project3",
       tags: ["Multimodal", "SVM", "AudioMNIST", "Caltech Faces"]
     },
     {
       title: "Pain Recognition using Deep Learning",
       description: "Deep learning classification pipeline built with ResNet50, MLflow, and real-time visual reporting.",
-      link: "/projects/project4",
+      link: "/Projects/Project4",
       tags: ["Deep Learning", "CNN", "Focal Loss", "BP4D"]
     },
-    {
-      title: "Cloud Infra Dashboard",
-      description: "Terraform + GitHub Actions pipeline deployed on AWS, monitored via CloudWatch & alerting hooks.",
-      link: "/projects/project5",
-      tags: ["DevOps", "Terraform", "GitLab CI", "CloudWatch"]
-    }
-  ];
+];
 
   return (
     <section className="max-w-5xl mx-auto px-4 mt-24 pb-20 text-center">

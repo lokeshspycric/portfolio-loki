@@ -17,7 +17,7 @@ import Project1 from "./routes/Project1";
 import Project2 from "./routes/Project2";
 import Project3 from "./routes/Project3";
 import Project4 from "./routes/Project4";
-import Project5 from "./routes/Project5";
+
 
 export default function App() {
   const location = useLocation();
@@ -43,11 +43,10 @@ export default function App() {
         </>
       }
     />
-    <Route path="/projects/project1" element={<Project1 />} />
-    <Route path="/projects/project2" element={<Project2 />} />
-    <Route path="/projects/project3" element={<Project3 />} />
-    <Route path="/projects/project4" element={<Project4 />} />
-    <Route path="/projects/project5" element={<Project5 />} />
+    <Route path="/Projects/Project1" element={<Project1 />} />
+    <Route path="/Projects/Project2" element={<Project2 />} />
+    <Route path="/Projects/Project3" element={<Project3 />} />
+    <Route path="/Projects/Project4" element={<Project4 />} />
   </Routes>
 </AnimatePresence>
 
